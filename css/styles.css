@@ -29718,8 +29718,13 @@ ul.wc_payment_methods.payment_methods.methods li input:checked + label:before,
 
 /* ЦВЕТ - фильтр */
 
-.prdctfltr_ft_bezhevyj { display: block; background-color: #f7e0a5; height: 20px; margin: 5px; }
-.prdctfltr_ft_bezhevyj ~ label { display: block;  height: 20px; margin: 5px; }
+.prdctfltr_ft_bezhevyj { display: block; background-color: #f7e0a5; float: left; width: 20px; height: 20px; margin: 8px; border-radius: 50%; }
+.prdctfltr_ft_bezhevyj:hover { box-shadow: 0 0 0 3px #e8e8e8, 0 0 0 4px #3533b2; width: 20px; height: 20px; margin: 8px; }
+.prdctfltr_ft_bezhevyj ~ label { display: block;  float: left; width: 20px; height: 20px; margin: 8px; border-radius: 50%; }
+.prdctfltr_ft_bezhevyj ~ label:hover {	-webkit-box-shadow: 0 0 0 3px #e8e8e8, 0 0 0 4px #3533b2;
+										-moz-box-shadow: 0 0 0 3px #e8e8e8, 0 0 0 4px #3533b2; 
+										 box-shadow: 0 0 0 3px #e8e8e8, 0 0 0 4px #3533b2; }
+								
 .prdctfltr_ft_belyj 	{ background-color: #FFFFFF; }
 .prdctfltr_ft_bronza 	{ background-color: #c6b663; }
 .prdctfltr_ft_goluboj 	{ background-color: #52ebf9; }
