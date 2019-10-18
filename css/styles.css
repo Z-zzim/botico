@@ -29718,29 +29718,25 @@ ul.wc_payment_methods.payment_methods.methods li input:checked + label:before,
 
 /* ЦВЕТ - фильтр */
 
-.prdctfltr_ft_bezhevyj { display: block; background-color: #f7e0a5; float: left; width: 20px; height: 20px; margin: 8px; border-radius: 50%; }
-.prdctfltr_ft_bezhevyj:hover { box-shadow: 0 0 0 3px #e8e8e8, 0 0 0 4px #3533b2; width: 20px; height: 20px; margin: 8px; }
-.prdctfltr_ft_bezhevyj ~ label { display: block;  float: left; width: 20px; height: 20px; margin: 8px; border-radius: 50%; }
-.prdctfltr_ft_bezhevyj ~ label:hover {	-webkit-box-shadow: 0 0 0 3px #e8e8e8, 0 0 0 4px #3533b2;
-										-moz-box-shadow: 0 0 0 3px #e8e8e8, 0 0 0 4px #3533b2; 
-										 box-shadow: 0 0 0 3px #e8e8e8, 0 0 0 4px #3533b2; }
-								
+.prdctfltr_pa_color .prdctfltr_checkboxes > label { display: block;  float: left; width: 20px; height: 20px; margin: 8px; border-radius: 50%; }
+.prdctfltr_pa_color .prdctfltr_checkboxes > label:hover, .prdctfltr_active {	-webkit-box-shadow: 0 0 0 3px #e8e8e8, 0 0 0 4px #DBDBDB;
+																			-moz-box-shadow: 0 0 0 3px #e8e8e8, 0 0 0 4px #DBDBDB; 
+																			 box-shadow: 0 0 0 3px #e8e8e8, 0 0 0 4px #DBDBDB; }
+															 
+.prdctfltr_pa_color .prdctfltr_checkboxes > label > span { display: none; }
+															 
+.prdctfltr_ft_bezhevyj 	{ background-color: #f7e0a5; }								
 .prdctfltr_ft_belyj 	{ background-color: #FFFFFF; }
-.prdctfltr_ft_bronza 	{ background-color: #c6b663; }
-.prdctfltr_ft_goluboj 	{ background-color: #52ebf9; }
-.prdctfltr_ft_zheltyj 	{ background-color: #fbff0f; }
-.prdctfltr_ft_zelenyj 	{ background-color: #29f70e; }
-.prdctfltr_ft_zoloto	{ background-color: #f4e002; }
-.prdctfltr_ft_korichnevyj { background-color: #ad8803; }
-.prdctfltr_ft_rozovyj	{ background-color: #ffc1aa; }
-.prdctfltr_ft_serebro	{ background-color: #fcfcfc; }
-.prdctfltr_ft_seryj		{ background-color: #d3d3d3; }
-.prdctfltr_ft_sinij		{ background-color: #171eea; }
-.prdctfltr_ft_red		{ background-color: #f90000; }
+.prdctfltr_ft_bronza 	{ background-color: #BB9D54; }
+.prdctfltr_ft_goluboj 	{ background-color: #88F1FF; }
+.prdctfltr_ft_zheltyj 	{ background-color: #FFEF61; }
+.prdctfltr_ft_zelenyj 	{ background-color: #91B978; }
+.prdctfltr_ft_zoloto	{ background-color: #CD8032; }
+.prdctfltr_ft_korichnevyj { background-color: #80624D; } 
+.prdctfltr_ft_rozovyj	{ background-color: #F7C9C9; }
+.prdctfltr_ft_serebro	{ background-color: #E1E1E1; }
+.prdctfltr_ft_seryj		{ background-color: #B5B5B5; }
+.prdctfltr_ft_sinij		{ background-color: #5E6EFF; }
+.prdctfltr_ft_red		{ background-color: #E36363; }
 .prdctfltr_ft_black		{ background-color: #000000; }
-
-.prdctfltr_ft_bezhevyj > span { display: none; height: 10px; }
-.prdctfltr_ft_bezhevyj ~ label > span { display: none; height: 10px; }
-
-
 
