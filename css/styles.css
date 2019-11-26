@@ -16199,7 +16199,7 @@ li.display_buttons .product_after_shop_loop {
   padding-left: 4px; }
 
 .product_after_shop_loop_price {
-  height: 33px;
+  height: 60px;
   overflow: hidden; }
 
 .product_after_shop_loop_buttons {
@@ -29719,9 +29719,9 @@ ul.wc_payment_methods.payment_methods.methods li input:checked + label:before,
 /* ЦВЕТ - фильтр */
 
 .prdctfltr_pa_color .prdctfltr_checkboxes > label { display: block;  float: left; width: 20px; height: 20px; margin: 8px; border-radius: 50%; }
-.prdctfltr_pa_color .prdctfltr_checkboxes > label:hover, .prdctfltr_active {	-webkit-box-shadow: 0 0 0 3px #e8e8e8, 0 0 0 4px #DBDBDB;
-																			-moz-box-shadow: 0 0 0 3px #e8e8e8, 0 0 0 4px #DBDBDB; 
-																			 box-shadow: 0 0 0 3px #e8e8e8, 0 0 0 4px #DBDBDB; }
+.prdctfltr_pa_color .prdctfltr_checkboxes > label:hover {	-webkit-box-shadow: 0 0 0 3px #e8e8e8, 0 0 0 4px #e40f29;
+																			-moz-box-shadow: 0 0 0 3px #e8e8e8, 0 0 0 4px #e40f29; 
+																			 box-shadow: 0 0 0 3px #e8e8e8, 0 0 0 4px #e40f29; }
 															 
 .prdctfltr_pa_color .prdctfltr_checkboxes > label > span { display: none; }
 															 
